@@ -1,3 +1,4 @@
 virtualenv/
 *.egg-info
 __pycache__
+*.db
