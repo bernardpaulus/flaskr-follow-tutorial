@@ -62,7 +62,7 @@ def add_entry():
     db.execute('insert into entries (title, text) values (?, ?)',
         [request.form['title'], request.form['text']])
     db.commit()
-    flash('New entry wass nsuccessfully posted')
+    flash('New entry was successfully posted')
     return redirect(url_for('show_entries'))
 
 
